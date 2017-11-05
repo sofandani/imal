@@ -1,0 +1,25 @@
+<div class="row mx-0 px-0">
+  <div class="col-12 row row-offcanvas row-offcanvas-right mt-3 mb-3 mx-0 px-0">
+    <div class="col-2 mt-1 ml-0 pl-0 mr-auto">
+      <strong>Produk Pilihan:</strong>
+    </div>
+    <div class="col-2 mr-0 pr-0 float-right">
+      <a href="#!categories/sport" class="btn btn-sm btn-outline-secondary float-right">Lihat Semuanya</a>
+    </div>
+  </div>
+
+  <div id="preloademallproducts" class="pre-loading text-center">
+    <span class="d-inline-block w-100 centering">Loading ...</span>
+  </div>
+
+  <div class="row mx-0 px-0">
+      <div 
+      class="col-2 mx-0 px-0" 
+      ng-repeat="prod in emallproducts" 
+      ng-if="prod.price.saleprice[1] > 0"
+      ng-if="true">
+      <div ng-include="'templates/product-card.html'" scope="controllerScope" onload=""></div>
+    </div>
+  </div>
+
+</div>

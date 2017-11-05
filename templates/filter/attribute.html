@@ -1,0 +1,15 @@
+<div class="form-group mx-0 my-0 py-0 px-0" ng-controller="attributeController as attrCtrl">
+	<select class="custom-select w-100 form-control-sm" 
+	ng-change="attrCtrl.selectVariable(modelSelectedAttr)" 
+	ng-model="modelSelectedAttr" 
+	ng-options="attr.slug as attr.name for attr in _Attribute">
+		<option value="" disabled>-- Pilih --</option>
+	</select>
+	<div ng-hide="attributeNode == null" class="mt-2">
+		<select class="custom-select w-100 form-control-sm" 
+		ng-model="modelSelectedAttrChild" 
+		ng-options="var for var in attributeNode">
+			<option value="" disabled>-- Pilih --</option>
+		</select>
+	</div>
+</div>

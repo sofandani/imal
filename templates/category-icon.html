@@ -1,0 +1,12 @@
+<div id="preloadcategories" class="pre-loading text-center">
+	<span class="d-inline-block w-100 centering">Loading ...</span>
+</div>
+<div class="row px-0 py-0 mx-0 my-0">
+	<div class="col-3 mb-1 pr-1 ml-0 px-0" ng-repeat="(kunci, categ) in _Category" id="iconMenu_{{ kunci }}">
+		<a ng-href="#!category/{{ categ.routing }}" class="bg-white mx-0 px-2 py-2 d-inline-block w-100 no-underline">
+			<span class="icon-size-20 text-info">
+				<i class="material-icons align-middle">{{ categ.icon }}</i>
+			</span> {{ categ.title }}
+		</a>
+	</div>
+</div>

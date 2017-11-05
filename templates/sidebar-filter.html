@@ -1,0 +1,41 @@
+<div class="box-filter clearfix">
+	<div class="filter-category mb-3 clearfix">
+		<strong class="d-inline-block w-100 mb-1">Kategori</strong>
+		<div class="input-group mb-2 pr-3">
+			<span class="input-group-addon mx-0 px-1 bg-white" id="sizing-search-category">
+				<i class="material-icons align-middle">search</i>
+			</span>
+			<input type="text" name="search_in_category" placeholder="cari di kategori" class="form-control form-control-sm" aria-describedby="sizing-search-category">
+		</div>
+		<div ng-include="'templates/filter/category.html'" scope="" onload=""></div>
+	</div>
+	<div class="pr-3 filter-price pb-1 mb-3 border-top-0 border-left-0 border-right-0">
+		<strong class="d-inline-block w-100 mb-1">Kisaran Harga</strong>
+		<div ng-include="'templates/filter/price.html'" scope="" onload=""></div>
+	</div>
+	<div class="pr-3 filter-attribute pb-1 mb-3 border-top-0 border-left-0 border-right-0">
+		<strong class="d-inline-block w-100 mb-1">Detail Barang</strong>
+		<div ng-include="'templates/filter/attribute.html'" scope="" onload=""></div>
+	</div>
+	<div class="pr-3 filter-condition pb-1 mb-3 border-top-0 border-left-0 border-right-0">
+		<strong class="d-inline-block w-100 mb-1">Filter Barang</strong>
+		<label class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
+			<input type="checkbox" name="discount" class="custom-control-input">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">Diskon %</span>
+		</label>
+		<br />
+		<label class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
+			<input type="checkbox" name="refund" class="custom-control-input">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">Dikembalikan</span>
+		</label>
+		<br />
+		<label class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
+			<input type="checkbox" name="freeshipping" class="custom-control-input">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">Gratis Ongkir</span>
+		</label>
+	</div>
+	<div class="pr-3 filter-refund pb-1 mb-3 border-top-0 border-left-0 border-right-0"></div>
+</div>

@@ -1,0 +1,294 @@
+.bg-none, .no-bg
+{
+	background: none;
+}
+
+.btn-outline-firstly
+{
+	color: #fff;
+	background-color: transparent;
+	background-image: none;
+	border-color: #fff;
+}
+
+.btn-outline-firstly:hover
+{
+	color: #aaa;
+	background-color: #fff;
+	background-image: none;
+	border-color: #aaa;
+}
+
+.top-0 {top: 0px}
+.top-1 {top: 1px}
+.top-2 {top: 2px}
+.top-3 {top: 3px}
+.top-4 {top: 4px}
+.top-5 {top: 5px}
+.top-6 {top: 6px}
+.top-7 {top: 7px}
+.top-8 {top: 8px}
+.top-9 {top: 9px}
+.top-10 {top: 10px}
+.top-11 {top: 11px}
+.top-12 {top: 12px}
+.top-13 {top: 13px}
+.top-14 {top: 14px}
+
+.bottom-0 {bottom: 0px}
+.bottom-1 {bottom: 1px}
+.bottom-2 {bottom: 2px}
+.bottom-3 {bottom: 3px}
+.bottom-4 {bottom: 4px}
+.bottom-5 {bottom: 5px}
+.bottom-6 {bottom: 6px}
+.bottom-7 {bottom: 7px}
+.bottom-8 {bottom: 8px}
+.bottom-9 {bottom: 9px}
+.bottom-10 {bottom: 10px}
+.bottom-11 {bottom: 11px}
+.bottom-12 {bottom: 12px}
+.bottom-13 {bottom: 13px}
+.bottom-14 {bottom: 14px}
+
+.left-0 {left: 0px}
+.left-1 {left: 1px}
+.left-2 {left: 2px}
+.left-3 {left: 3px}
+.left-4 {left: 4px}
+.left-5 {left: 5px}
+.left-6 {left: 6px}
+.left-7 {left: 7px}
+.left-8 {left: 8px}
+.left-9 {left: 9px}
+.left-10 {left: 10px}
+.left-11 {left: 11px}
+.left-12 {left: 12px}
+.left-13 {left: 13px}
+.left-14 {left: 14px}
+
+.right-0 {right: 0px}
+.right-1 {right: 1px}
+.right-2 {right: 2px}
+.right-3 {right: 3px}
+.right-4 {right: 4px}
+.right-5 {right: 5px}
+.right-6 {right: 6px}
+.right-7 {right: 7px}
+.right-8 {right: 8px}
+.right-9 {right: 9px}
+.right-10 {right: 10px}
+.right-11 {right: 11px}
+.right-12 {right: 12px}
+.right-13 {right: 13px}
+.right-14 {right: 14px}
+
+.top--0 {top: -0px}
+.top--1 {top: -1px}
+.top--2 {top: -2px}
+.top--3 {top: -3px}
+.top--4 {top: -4px}
+.top--5 {top: -5px}
+.top--6 {top: -6px}
+.top--7 {top: -7px}
+.top--8 {top: -8px}
+.top--9 {top: -9px}
+.top--10 {top: -10px}
+.top--11 {top: -11px}
+.top--12 {top: -12px}
+.top--13 {top: -13px}
+.top--14 {top: -14px}
+
+.bottom--0 {bottom: -0px}
+.bottom--1 {bottom: -1px}
+.bottom--2 {bottom: -2px}
+.bottom--3 {bottom: -3px}
+.bottom--4 {bottom: -4px}
+.bottom--5 {bottom: -5px}
+.bottom--6 {bottom: -6px}
+.bottom--7 {bottom: -7px}
+.bottom--8 {bottom: -8px}
+.bottom--9 {bottom: -9px}
+.bottom--10 {bottom: -10px}
+.bottom--11 {bottom: -11px}
+.bottom--12 {bottom: -12px}
+.bottom--13 {bottom: -13px}
+.bottom--14 {bottom: -14px}
+
+.left--0 {left: -0px}
+.left--1 {left: -1px}
+.left--2 {left: -2px}
+.left--3 {left: -3px}
+.left--4 {left: -4px}
+.left--5 {left: -5px}
+.left--6 {left: -6px}
+.left--7 {left: -7px}
+.left--8 {left: -8px}
+.left--9 {left: -9px}
+.left--10 {left: -10px}
+.left--11 {left: -11px}
+.left--12 {left: -12px}
+.left--13 {left: -13px}
+.left--14 {left: -14px}
+
+.right--0 {right: -0px}
+.right--1 {right: -1px}
+.right--2 {right: -2px}
+.right--3 {right: -3px}
+.right--4 {right: -4px}
+.right--5 {right: -5px}
+.right--6 {right: -6px}
+.right--7 {right: -7px}
+.right--8 {right: -8px}
+.right--9 {right: -9px}
+.right--10 {right: -10px}
+.right--11 {right: -11px}
+.right--12 {right: -12px}
+.right--13 {right: -13px}
+.right--14 {right: -14px}
+
+.card-block {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.no-underline, .no-underline:active, .no-underline:hover
+{
+	color: inherit;
+	text-decoration: none;
+}
+
+.list-group-item.no-border
+{
+    border: none;
+}
+
+a.list-group-item-thistheme, 
+button.list-group-item-thistheme {
+    color: #333;
+    background-color: transparent;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:solid 1px #eee !important;
+    border-top-left-radius:0 !important;
+    border-top-right-radius:0 !important;
+    border-bottom-left-radius:0 !important;
+    border-bottom-right-radius:0 !important
+}
+
+a.list-group-item-thistheme:last-child, 
+button.list-group-item-thistheme:last-child
+{
+    border-bottom:none !important;
+}
+
+a.list-group-item-thistheme:hover, 
+button.list-group-item-thistheme:hover {
+    color: #333;
+    background-color: #eee;
+}
+
+a.list-group-item-thistheme.active, 
+button.list-group-item-thistheme.active {
+    color: #007c8d;
+    background-color: #fff;
+    border-bottom:dashed 1px #ddd !important;
+}
+
+.btn-outline-thistheme {
+    color: #fff;
+    background-color: transparent;
+    border-color: #ffffff;
+}
+
+.btn-outline-thistheme:hover {
+    color: #fff;
+    background-color: #ffffff50;
+    border-color: #ffffff;
+}
+
+.icon-size-12, .icon-size-12 > *,
+.text-12, .text-12 > *{font-size: 12px}
+.icon-size-14, .icon-size-14 > *,
+.text-14, .text-14 > *{font-size: 14px}
+.icon-size-16, .icon-size-16 > *,
+.text-16, .text-16 > *{font-size: 16px}
+.icon-size-18, .icon-size-18 > *,
+.text-18, .text-18 > *{font-size: 18px}
+.icon-size-20, .icon-size-20 > *,
+.text-20, .text-20 > *{font-size: 20px}
+.icon-size-24, .icon-size-24 > *,
+.text-24, .text-24 > *{font-size: 24px}
+.icon-size-28, .icon-size-28 > *,
+.text-28, .text-28 > *{font-size: 28px}
+.icon-size-30, .icon-size-30 > *,
+.text-30, .text-30 > *{font-size: 30px}
+.icon-size-32, .icon-size-32 > *,
+.text-32, .text-32 > *{font-size: 32px}
+.icon-size-34, .icon-size-34 > *,
+.text-34, .text-34 > *{font-size: 34px}
+.icon-size-38, .icon-size-38 > *,
+.text-38, .text-38 > *{font-size: 38px}
+.icon-size-40, .icon-size-40 > *,
+.text-40, .text-40 > *{font-size: 40px}
+.icon-size-42, .icon-size-42 > *,
+.text-42, .text-42 > *{font-size: 42px}
+.icon-size-44, .icon-size-44 > *,
+.text-44, .text-44 > *{font-size: 44px}
+.icon-size-48, .icon-size-48 > *,
+.text-48, .text-48 > *{font-size: 48px}
+.icon-size-50, .icon-size-50 > *,
+.text-50, .text-50 > *{font-size: 50px}
+.icon-size-52, .icon-size-52 > *,
+.text-52, .text-52 > *{font-size: 52px}
+.icon-size-54, .icon-size-54 > *,
+.text-54, .text-54 > *{font-size: 54px}
+.icon-size-58, .icon-size-58 > *,
+.text-58, .text-58 > *{font-size: 58px}
+.icon-size-60, .icon-size-60 > *,
+.text-60, .text-60 > *{font-size: 60px}
+.icon-size-62, .icon-size-62 > *,
+.text-62, .text-62 > *{font-size: 62px}
+.icon-size-64, .icon-size-64 > *,
+.text-64, .text-64 > *{font-size: 64px}
+
+.w-10{width:10% !important;}
+.w-15{width:15% !important;}
+.w-20{width:20% !important;}
+.w-30{width:30% !important;}
+.w-35{width:35% !important;}
+.w-40{width:40% !important;}
+.w-45{width:45% !important;}
+.w-55{width:55% !important;}
+.w-60{width:60% !important;}
+.w-65{width:65% !important;}
+.w-70{width:70% !important;}
+.w-75{width:75% !important;}
+.w-80{width:80% !important;}
+.w-85{width:85% !important;}
+.w-90{width:90% !important;}
+.w-95{width:95% !important;}
+
+.min-h-10{min-height:10%}
+.min-h-15{min-height:15%}
+.min-h-20{min-height:20%}
+.min-h-25{min-height:25%}
+.min-h-30{min-height:30%}
+.min-h-35{min-height:35%}
+.min-h-40{min-height:40%}
+.min-h-45{min-height:45%}
+.min-h-50{min-height:50%}
+.min-h-55{min-height:55%}
+.min-h-60{min-height:60%}
+.min-h-65{min-height:65%}
+.min-h-70{min-height:70%}
+.min-h-75{min-height:75%}
+.min-h-80{min-height:80%}
+.min-h-85{min-height:85%}
+.min-h-90{min-height:90%}
+.min-h-95{min-height:95%}
+.min-h-100{min-height:100%}

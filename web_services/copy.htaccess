@@ -1,0 +1,15 @@
+Options -MultiViews
+
+ErrorDocument 404 http://192.168.0.2:7777/emall.id/#!/404/
+ErrorDocument 500 http://192.168.0.2:7777/emall.id/#!/500/
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^gsx/([^/]+)/([^/]+)/([^/]+)?$ googlesheet_json.php?ID=$1&callback=$2&worksheet=$3 [L,NC,QSA]
+RewriteRule ^gsx/([^/]+)/([^/]+)/([^/]+)/([^/]+)?$ googlesheet_json.php?groupby=$1&ID=$2&callback=$3&worksheet=$4 [L,NC,QSA]
+
+#RewriteCond %{HTTP_ACCEPT} "text\/vnd\.wap\.wml|application\/vnd\.wap\.xhtml\+xml" [NC]
+#RewriteCond %{REQUEST_URI} ^/$
+#RewriteRule ^ http://m.domain.com%{REQUEST_URI} [R,L]

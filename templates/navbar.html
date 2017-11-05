@@ -1,0 +1,56 @@
+<nav class="navbar navbar-expand-md fixed-top navbar-none BackgroundBrandGradient">
+  <a class="navbar-brand" href="#">
+    <img src="assets/images/logo-text.svg" width="64" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="mx-auto w-60">
+    
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav w-20">
+        <li class="nav-item active dropdown">
+          <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdownCat" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="material-icons align-middle">list</i> <span class="align-middle">Kategori</span></a>
+          <div class="dropdown-menu" aria-labelledby="dropdownCat">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="aku mau cari ..." aria-label="Text input with dropdown button">
+        <span class="input-group-addon mx-0 px-1 bg-white" id="sizing-search-category">
+        <i class="material-icons align-middle">search</i>
+        </span>
+        <div class="input-group-btn">
+          <button type="button" class="btn btn-sm btn-outline-thistheme dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            di dalam
+          </button>
+          <div class="dropdown-menu dropdown-menu-right">
+            <div class="text-11" ng-include="'templates/filter/category.html'" scope="" onload=""></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="menu-right">
+    <ul class="nav navbar-nav navbar-right">
+      <li style="position: relative;" class="mt-2 mr-2"><a class="nav-link icon-size-24 px-0 py-0" href="#">
+        <i class="material-icons align-middle">notifications</i></a>
+        <span class="badge badge-danger position-absolute top--5 left--5">2</span>
+      </li>
+      <li class="mr-4 mt-2"><a class="nav-link px-0 py-0" href="#about">
+        <i class="glyphicons glyphicons-shopping-cart align-middle"></i></a>
+      </li>
+      <li class="mr-2"><a class="btn btn-outline-firstly btn-sm align-middle mt-1" href="#!login">Masuk</a></li>
+      <li><a class="btn btn-outline-firstly btn-sm align-middle mt-1" href="#!register">Daftar</a></li>
+    </ul>
+  </div>
+
+</nav>

@@ -1,0 +1,4 @@
+Options -MultiViews
+
+ErrorDocument 404 http://192.168.0.2:7777/emall.id/#!/404
+ErrorDocument 500 http://192.168.0.2:7777/emall.id/#!/500

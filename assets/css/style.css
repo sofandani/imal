@@ -1,0 +1,87 @@
+html {}
+body {
+	font-size: 14px;
+	padding-top: 60px;
+}
+header {}
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto
+}
+
+.BackgroundBrandGradient
+{
+    background-image: -webkit-linear-gradient(76deg, #007c8d, #05eade);
+    background-image: -o-linear-gradient(76deg, #007c8d, #05eade);
+    background-image: linear-gradient(166deg, #007c8d, #05eade);
+}
+
+.BackgroundBrandGradient .navbar-nav .nav-link
+{
+	color: #fff
+}
+
+.iconMenu
+{
+	font-size: 18px
+}
+
+.pre-loading
+{
+    background-color: #bce2e1;
+	position: absolute;
+	top:0;
+	left:0;
+    width: 100%;
+    z-index: 9;
+    height: 100%;
+}
+
+.pre-loading > *
+{
+    vertical-align: middle;
+    height: inherit;
+    color: #fff;
+}
+
+.pre-loading > *.centering
+{
+	position: relative;
+    top: 50%;
+}
+
+.loveble-icon
+{
+position: absolute;
+z-index: 9;
+right: 10px;
+bottom: 10px;
+color: red;
+width:40px;
+height:40px;
+}
+
+.cover-card-top
+{
+position: relative;
+overflow: hidden;
+}
+
+.discount-label {
+    position: absolute;
+    z-index: 9;
+    right: 0;
+    top: -10;
+}
+
+span.discount-label > * {
+    padding: 10px;
+}
+
+.wrapper-border-gray
+{
+    border: solid 1px #eee;
+}

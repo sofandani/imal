@@ -1,0 +1,12 @@
+<div id="categoryFilter" class="list-group category-filter mx-0 my-0 py-0 px-0">
+	<a 
+	class="list-group-item list-group-item-action list-group-item-thistheme mx-0 my-0 px-0 py-0"  
+	ng-repeat="(key, mc) in _Category" 
+	ng-class="{'active': mc.routing == categorySlug}" 
+	id="iconMenu_{{ key }}" data-slug="{{ categorySlug }}"
+	ng-href="#!category/{{ mc.routing }}">
+		<span class="icon-size-14 ml-1">
+			<i class="material-icons align-middle" ng-class="{'text-info' : mc.routing !== categorySlug}">{{ mc.icon }}</i>
+		</span> <span>{{ mc.title }}</span> <i class="material-icons float-right mt-1" ng-show="mc.routing == categorySlug">chevron_right</i>
+	</a>
+</div>

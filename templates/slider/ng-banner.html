@@ -1,0 +1,28 @@
+<div id="carouselBannerHome" class="carousel slide" data-ride="carousel">
+
+  <ol class="carousel-indicators">
+    <li data-target="#carouselBannerHome" ng-repeat="indicator in homeBannerSlide" data-slide-to="{{ ::indicator.id }}" ng-class="indicator.id == 0 ? 'active' : 'not-active'"></li>=
+  </ol>
+
+  <div class="carousel-inner" role="listbox">
+
+    <div ng-repeat="dataSlide in homeBannerSlide" ng-class="indicator.id == 0 ? 'carousel-item active' : 'carousel-item'">
+      <img class="d-block w-100" data-ng-src="{{ dataSlide.images }}" alt="{{ dataSlide.alt }}">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>{{ dataSlide.title }}</h3>
+        <p>{{ dataSlide.text }}</p>
+      </div>
+    </div>
+
+  </div>
+
+  <a class="carousel-control-prev" href="#carouselBannerHome" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselBannerHome" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>

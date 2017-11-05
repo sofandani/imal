@@ -1,0 +1,34 @@
+{
+  "name": "emall.id",
+  "version": "1.0.0",
+  "description": "E-mall adalah platform percobaan untuk marketplace tenant yang ada di mall",
+  "main": "index.js",
+  "dependencies": {
+    "@ng-bootstrap/ng-bootstrap": "1.0.0-beta.5",
+    "angular": "^1.6.6",
+    "angular-base64": "^2.0.5",
+    "angular-carousel": "^1.1.0",
+    "angular-md5": "^0.1.10",
+    "angular-resource": "^1.6.6",
+    "angular-route": "^1.6.6",
+    "angular-touch": "^1.6.6",
+    "bootstrap": "^4.0.0-beta.2",
+    "connect": "3.6.5",
+    "connect-compiler": "0.1.3",
+    "jquery": "^3.2.1",
+    "livereload": "0.6.3",
+    "ng-bootstrap": "^1.6.3"
+  },
+  "devDependencies": {
+    "ng-page-title": "^1.3.1"
+  },
+  "scripts": {
+    "test": "npm",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "e-commerce"
+  ],
+  "author": "OFAN",
+  "license": "ISC"
+}

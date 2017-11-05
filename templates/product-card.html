@@ -1,0 +1,40 @@
+<div class="card mb-3">
+	<span class="discount-label" ng-show="prod.discount > 0">
+		<span class="badge badge-pill badge-info">{{ prod.discount }}%</span>
+	</span>
+	<div class="cover-card-top">
+		<a href="#!product/{{ prod.category }}/{{ prod.slug }}/{{ prod.id }}" class="d-block no-underline">
+			<img class="card-img-top" data-ng-src="{{ _thisDomain }}/assets/images/{{ prod.thumbnail }}" alt="{{ prod.title }}">
+		</a>
+		<span class="loveble-icon rounded-circle px-1 py-1 bg-white">
+			<span class="icon-size-32">
+				<i class="material-icons align-middle">favorites</i>
+			</span>
+		</span>
+	</div>
+	<div class="card-block">
+		<h6 class="card-title">
+			<a href="#!product/{{ prod.category }}/{{ prod.slug }}/{{ prod.id }}" class="d-block no-underline">{{ prod.title }}</a>
+		</h6>
+      	<p class="card-text" ng-if="controllerScope.description == true">{{ prod.description.short}}</p>
+		<span ng-if="prod.price.msrpprice[1] == prod.price.saleprice[1]">
+			<strong class="text-right d-block text-danger"><u>{{ prod.price.msrpprice[0] }}</u></strong>
+		</span>
+		<span ng-if="prod.price.msrpprice[1] > prod.price.saleprice[1] && prod.price.saleprice[1] != 0">
+			<strong class="text-right d-block text-danger"><u>{{ prod.price.saleprice[0] }}</u></strong>
+		</span>
+		<span ng-if="prod.price.msrpprice[1] > prod.price.saleprice[1] && prod.price.saleprice[1] == 0">
+			<strong class="text-right d-block text-success">{{ prod.price.msrpprice[0] }}</strong>
+		</span>
+	</div>
+
+	<div class="card-footer text-12" ng-if="prod.seller_card != null">
+		<span class="text-muted d-block">
+			<!--img data-ng-src="{{ _thisDomain }}/assets/images/{{ prod.seller_card.avatar }}" width="16" height="16"--> 
+			<a href="#!toko/{{ prod.seller_card.username }}">{{ prod.seller_card.name }}</a>
+		</span>
+		<small class="text-muted d-block mt-1">
+			<i class="material-icons align-middle">place</i> {{ prod.seller_card.location }}
+		</small>
+	</div>
+</div>
